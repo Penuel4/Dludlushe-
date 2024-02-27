@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial scale-1.0"> 
+    <title>Dludlushe Enterprise</title>
+	<link rel="stylesheet" href="Dludlushe Enterprise.css">
+	<link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  
+  
+  <body style="margin:0;">
+    <header>
+	  <img src="logo.png" alt="Company Logo" style="width:300px; height:200px;">
+	  <p style="color:#d6d0d0; font-size: 22px;">Proffesional & Affordable, We Always Leave The Seat Down</p>
+	</header>
+	  
+    <div class="topnav">
+	  <a href="#Contact Us"><strong>Contact Us</a>
+	  <a href="#Services">Services</a>
+	  <a href="#Home">Home</strong></a>
+    </div>
+
+	<p style="font-family: 'Acme';font-size: 26px;color:#a69567;text-align:center;">Welcome to Dludlushe Enterprise, your trusted partner for all your plumbing needs!<br> Our Website is designed to provide you with comprehensive information about our services, expertise, and commitment to delivering top-notch plumbing solutions for your home and office.</p> 
+    
+	<p style="font-family: 'ABeeZee'; font-size:16px; text-align:center;">Tell us your plumbing needs, and we'll get back to you with a quote and payment options</p>  
+    <form action="/action_page.php" style="max-width:500px;margin:auto" >
+	  <div class="input-container">
+        <i class="fa fa-user icon"></i>
+        <input class="input-field" type="text" placeholder="Name" name="name">
+      </div>
+
+      <div class="input-container">
+       <i class="fa fa-envelope icon"></i>
+       <input class="input-field" type="text" placeholder="Email" name="email">
+      </div>
+	  
+	  <div class="input-container">
+	   <i class="fa fa-phone icon"></i>
+	   <input class="input-field" type="text" placeholder="Contact Number" name="Contact">
+	  </div>
+	  
+	  <div class="input-container">
+	   <i class="fa fa-comment-o icon"></i>
+       <textarea class="input-field" name="message" cols="30" rows="15" style="width:100%;"></textarea>	  
+	  </div>
+	  <button type="submit" class="btn">Get Quote</button>
+	</form>
+	<p style="font-family:'ABeeZee'; font-size:16px;">For more info on our services and competencies, click the services tab above.</p>
+	
+	<footer>
+	   <ul style="list-style-type: none; font-size:18px; font-family:'ABeeZee'; color:#a0c49d;">
+	      <li style="font-size:26px;">Address</li>
+		  <li>11731 Kubeka Street</li>
+		  <li>Springs</li>
+		  <li>1575</li>
+	   </ul>
+       <ul style="font-size:18px; font-family:'ABeeZee'; color:#a0c49d;">
+	      <li style="Font-size: 26px; list-style-type:none;">Operating Hours</li>
+          <li>Mon-Fri : 08:oo - 17:00</li>
+          <li>Saturday: 08:00 - 15:00</li>
+          <li>Sundays : 08:00 - 13:00</li>
+       </ul>		  
+	   <p style="font-size:18px; font-family:'ABeeZee';">Alternatively, you can contact us on our social sites, <br>
+	   <i class="fa fa-facebook" style="padding:5px; color:white; min-width:40px; background-color:dodgerblue; text-align:center;"></i>
+	   <i class="fa fa-whatsapp" style="padding:5px; color:white; min-width:40px; background-color:#2c9123; text-align:center;"></i>
+	   </p>
+	  </footer>
+  </body>
+</html>
